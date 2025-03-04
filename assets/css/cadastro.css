@@ -1,0 +1,50 @@
+.title-cad {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.btn-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-voltar-login, .btn-cadastrar {
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.3rem;
+}
+.btn-voltar-login{ 
+    border: 2px solid var(--btn-yellow);
+    color: var(--btn-yellow);
+}
+
+.btn-cadastrar {
+    background-color: var(--btn-yellow);
+    color: var(--dark-green);
+    width: 10rem;
+}
+
+footer {
+    bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .title-cad {
+        font-size: 1.6rem;
+        margin-top: 2.5rem;
+    }
+        
+    .btn-container {
+        margin-bottom: 5rem;
+    }
+    
+    .btn-voltar-login, .btn-cadastrar {
+        font-size: 1.4rem;
+    }
+    
+}

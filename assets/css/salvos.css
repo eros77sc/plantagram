@@ -1,0 +1,47 @@
+
+.cultivando {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.cultivando h1 {
+    font-size: 2.2rem;
+}
+
+.cultivando img {
+    width: 20rem;
+    margin-top: 3rem;
+}
+
+footer {
+    bottom: 9rem;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .cultivando {
+        grid-column: 2/3;
+    }
+    
+    footer {
+        bottom: 0rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    body {
+        grid-template-columns: 0.5fr 2fr;
+    }
+
+
+.cultivando {
+    margin-top: 8rem;
+}
+
+}

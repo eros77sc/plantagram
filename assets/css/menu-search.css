@@ -1,0 +1,225 @@
+.search-container {
+    position: fixed;
+    top: 2rem;
+    left: 0; 
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+  }
+
+  .search-container input[type="search"] {
+    width: 100%;
+    padding: 0.8rem 1.6rem 0.8rem 4rem; 
+    border: 3px solid var(--btn-terracota);
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    outline: none;
+  }
+
+  .search-container i {
+    position: absolute;
+    left: 1.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none;
+    font-size: 1.6rem;
+  }
+
+.profile-icon {
+    width: 3.5rem;
+    margin-left: 0.5rem;
+
+}
+
+.menu-lateral {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid var(--btn-terracota);
+    background: var(--background-green);
+}
+
+.menu-lateral ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.menu-lateral li {
+    text-align: center;
+
+}
+
+.menu-lateral a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.icon {
+    width: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.logo-small {
+    display: none;
+}
+
+.salvos-inactive {
+    width: 3rem;
+}
+
+.state2 {
+    display: none;
+}
+
+.menu-lateral a:active .state1 {
+    display: none;
+}
+.menu-lateral a:active .state2 {
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .search-container {
+        top: 0;
+        left: 30rem;
+        width: 35%;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    
+    .search-container input[type="search"] {
+        padding: 0.4rem 1.6rem 0.4rem 4rem;
+    }
+    
+    .menu-lateral {
+        grid-column: 1;
+        position: fixed;
+        top: 5rem;
+        width: 20rem;
+        border-top: none;
+        border-right: 2px solid var(--btn-terracota);
+    }
+    
+    .menu-lateral ul {
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+        margin-left: 5rem;
+        margin-top: 10rem;
+    }
+    
+    .menu-lateral li {
+        text-align: center;
+        display: flex;
+    
+    }
+    
+    .menu-lateral a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.4rem;
+        
+    }
+    
+    .icon {
+        width: 4rem;
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+    }
+
+    .salvos-inactive, .salvos-active {
+        width: 3rem;
+    }
+
+    .sair-inactive, .sair-active {
+        width: 3rem;
+    }
+    
+    .plant-icon-small {
+        width: 4rem;
+    }
+
+    .logo-small {
+        display: block;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+        align-items: center;
+        font-family: var(--font-logo);
+        font-size: 1.6rem;
+    }
+    
+    @media only screen and (min-width: 992px) {
+        .search-container {
+            grid-column: 2/3;
+            top: 0;
+            left: 70rem;
+            width: 25%;
+            margin-top: 1rem;
+            margin-left: 0;
+          }
+    
+        
+        .search-container input[type="search"] {
+            padding: 0.2rem 1.6rem 0.2rem 4rem;
+            font-size: 1.5rem;
+        }
+        
+        .menu-lateral {
+            width: 25rem;
+
+        }
+
+        .menu-lateral ul {
+            margin-left: 7rem;
+            margin-top: 7rem;
+        }
+        
+        .icon {
+            width: 3rem;
+        }
+        
+        .plant-icon-small {
+            width: 3rem;
+        }
+    
+        .logo-small {
+            font-size: 1.8rem;
+            font-family: var(--font-logo);
+        }
+        
+        .salvos-inactive, .salvos-active {
+            width: 2rem;
+        }
+        .sair-inactive, .sair-active {
+            width: 2rem;
+        }
+    
+        .menu-item:hover .state1,
+        .menu-item.active .state1 {
+            display: none; 
+    }
+    
+        .menu-item:hover .state2,
+        .menu-item.active .state2 {
+            display: block; 
+    }
+    }
+}

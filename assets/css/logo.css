@@ -1,0 +1,44 @@
+.cadlog-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plant-icon {
+    width: 5rem;
+}
+
+h1 {
+    font-family: var(--font-logo);
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    /* login */
+    html, body {
+        min-height: 100vh; /*a página continua com rolagem, não entendi o que pode ter acontecido */
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+h1 {
+    font-family: var(--font-logo);
+    font-size: 3rem;
+}
+    
+.subtitle {
+    font-size: 1.6rem;
+}
+}

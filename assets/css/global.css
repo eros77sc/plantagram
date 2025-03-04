@@ -1,0 +1,48 @@
+:root {
+    --background-green: #2D3325;
+    --dark-green: #1D2013;
+    --font-color: #F9EDCF;
+    --btn-terracota: #D57951;
+    --btn-yellow: #F8D875;
+    --light-pink: #E2D0D9;
+    --font-logo: "Mitr", sans-serif;
+    --font-body: "Mukta", sans-serif;
+}
+
+body {
+    background-color: var(--background-green);
+    color: var(--font-color);
+    font-family: var(--font-body);
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+ul, li {
+    list-style: none;
+}
+
+footer {
+    background-color: var(--dark-green);
+    position: fixed; 
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+@media only screen and (min-width: 768px){
+    body {
+        background-image: url("/assets/img/blob-left.png"), url("/assets/img/blob-right.png");
+        background-repeat: no-repeat;
+        background-position: top left, right 10rem;
+        background-size: 12rem;
+        background-attachment: fixed;
+    }
+
+    footer {
+        bottom: 0;
+    }
+}

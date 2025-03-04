@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>.plantagram.</title>
+
+  <link rel="shortcut icon" href="/assets/img/plant-icon.svg" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="stylesheet" href="/assets/css/menu-search.css">
+  <link rel="stylesheet" href="/assets/css/feed.css">
+</head>
+
+<body>
+  <section class="search-container">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="search" placeholder="Pesquisar...">
+    <a href="/pages/perfil.html"><img src="/assets/img/profile-icon.png" class="profile-icon"></a>
+  </section>
+
+  <nav class="menu-lateral">
+    <ul>
+      <li class="logo-small"><img src="/assets/img/plant-icon.svg" class="plant-icon-small"> plantagram</li>
+
+      <li><a href="/pages/feed.html" class="bold-inicial menu-item"><img src="/assets/img/inicial-vazado.png" class="icon state1 inicial-inactive"> <img src="/assets/img/inicial-preenchido.png" class="icon state2 inicial-active"> Página inicial</a></li>
+
+      <li><a href="/pages/explorar.html" class="bold-explorar menu-item"><img src="/assets/img/explorar-vazado.png" class="icon state1 explorar-inactive"> <img src="/assets/img/explorar-preenchido.png" class="icon state2 explorar-active"> Explorar</a> </li>
+
+      <li><a href="/pages/salvos.html" class="bold-salvos menu-item"> <img src="/assets/img/tag-vazado.png" class="icon state1 salvos-inactive"> <img src="/assets/img/tag-preenchido.png" class="icon state2 salvos-active"> Itens Salvos</a></li>
+
+      <li><a href="/pages/perfil.html" class="bold-perfil menu-item"> <img src="/assets/img/perfil-vazado.png" class="icon state1 perfil-inactive"> <img src="/assets/img/perfil-preenchido.png" class="icon state2 perfil-active"> Perfil</a></li>
+
+      <li><a href="/index.html" class="bold menu-item"> <img src="/assets/img/sair-vazado.png" class="icon state1 sair-inactive"> <img src="/assets/img/sair-preenchido.png" class="icon state2 sair-active"> Sair</a></li>
+    </ul>
+  </nav>
+
+  <main class="feed-container">
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+
+    <article class="card">
+      <img src="/assets/img/plants-card.jpg" alt="Ilustração antiga de variadas plantas" class="plants-img">
+      <div class="icon-container">
+          <!-- Botão de curtir -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/coracao-vazado.svg" alt="Curtir imagem" class="icones state3">
+            <img src="/assets/img/coracao-preenchido.svg" alt="Descurtir imagem" class="icones state4">
+          </label>
+        
+          <!-- Botão de salvar -->
+          <label class="toggle-icon">
+            <input type="checkbox" class="toggle-input">
+            <img src="/assets/img/tag-vazado-branco.png" alt="Salvar item" class="icones state3">
+            <img src="/assets/img/tag-preenchido-amarelo.png" alt="Retirar dos itens salvos" class="icones state4">
+          </label>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante urna, interdum sed vehicula et, iaculis eget turpis.</p>
+
+        <div class="card-footer">
+        <div class="left">
+        <img src="/assets/img/profile-icon.png">
+        <p class="username">@username</p>
+        </div>
+        <p class="time">Há 10 minutos</p>
+        </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Eros Castro - 2025</p>
+  </footer>
+</body>
+
+</html>
