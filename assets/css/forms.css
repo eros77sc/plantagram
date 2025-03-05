@@ -4,7 +4,7 @@ form {
 }
 
 label {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 input {
@@ -13,15 +13,19 @@ input {
 
 .help-text{
     color: var(--light-pink);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 @media only screen and (min-width: 768px) {
     label {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     
     input {
         font-size: 1.4rem;
+    }
+    .help-text{
+        color: var(--light-pink);
+        font-size: 1.2rem;
     }
 }
