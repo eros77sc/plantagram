@@ -7,13 +7,13 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
-    margin-left: -2rem;
+    margin-left: -4rem;
     margin-right: -2rem;
 }
 .card {
     border: 1px solid var(--btn-terracota);
     border-radius: 0.5rem;
-    width: 80%;
+    width: 70%;
     margin-bottom: 2rem;
     background-color: var(--background-green);
 }
@@ -99,8 +99,8 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 1.5rem;
-        margin-left: -9rem;
-        margin-right: 4rem;
+        margin-left: -4rem;
+        margin-right: 2rem;
     }
 
     .card {

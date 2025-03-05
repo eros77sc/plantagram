@@ -1,12 +1,12 @@
 .search-container {
     position: fixed;
     top: 2rem;
-    left: 0; 
-    width: 87%;
+    margin-left: 1.5rem; 
+    width: 80%;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 2rem;
-    margin-left: 0.8rem;
   }
 
   .search-container input[type="search"] {
@@ -14,7 +14,7 @@
     padding: 0.8rem 1.6rem 0.8rem 4rem; 
     border: 3px solid var(--btn-terracota);
     border-radius: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     outline: none;
   }
 
@@ -93,22 +93,38 @@
         grid-template-columns: 1fr 2fr;
     }
     .search-container {
-        top: 0;
-        left: 30rem;
-        width: 35%;
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        width: min(35%, 200rem);
         margin-top: 1rem;
-        margin-left: 0;
+        justify-content: flex-start;
     }
     
     .search-container input[type="search"] {
-        padding: 0.4rem 1.6rem 0.4rem 4rem;
-    }
+        width: 100%;
+        padding: 0.4rem 1rem 0.4rem 3rem; 
+        border: 3px solid var(--btn-terracota);
+        border-radius: 0.5rem;
+        font-size: 1.4rem;
+        outline: none;
+      }
+    
+      .search-container i {
+        position: absolute;
+        left: 1.6rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #aaa;
+        pointer-events: none;
+        font-size: 1.2rem;
+      }
     
     .menu-lateral {
         grid-column: 1;
         position: fixed;
         top: 5rem;
-        width: 20rem;
+        width: 15rem;
         border-top: none;
         border-right: 2px solid var(--btn-terracota);
         background: none;             
@@ -136,13 +152,13 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         
     }
     
     .icon {
-        width: 4rem;
-        margin-bottom: 2rem;
+        width: 2rem;
+        margin-bottom: 1rem;
         margin-right: 1rem;
     }
 
@@ -155,13 +171,13 @@
     }
     
     .plant-icon-small {
-        width: 4rem;
+        width: 3rem;
     }
 
     .logo-small {
         display: block;
         font-size: 1.4rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         align-items: center;
         font-family: var(--font-logo);
         font-size: 1.6rem;
@@ -170,21 +186,28 @@
     @media only screen and (min-width: 992px) {
         .search-container {
             grid-column: 2/3;
-            top: 0;
-            left: 70rem;
+            top: 1rem;
+            right: 1rem;
+            left: auto;
             width: 25%;
             margin-top: 1rem;
             margin-left: 0;
+            justify-content: flex-end;
           }
     
         
         .search-container input[type="search"] {
             padding: 0.2rem 1.6rem 0.2rem 4rem;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
+
+        .profile-icon {
+            width: 2.5rem;
+            margin-left: 0.5rem;
         
+        }
         .menu-lateral {
-            width: 25rem;
+            width: 22rem;
 
         }
 
@@ -194,9 +217,13 @@
         }
         
         .icon {
-            width: 3rem;
+            width: 2rem;
+            flex-shrink: 0;
         }
         
+        .iconSalvos {
+            width: 1rem; 
+        }
         .plant-icon-small {
             width: 3rem;
         }

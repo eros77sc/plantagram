@@ -8,12 +8,12 @@
 }
 
 .cultivando h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .cultivando img {
     width: 15rem;
-    margin-top: 1rem;
+    margin-top: 5rem;
 }
 
 footer {
@@ -29,7 +29,14 @@ footer {
     .cultivando {
         grid-column: 2/3;
     }
-    
+
+    .cultivando h1 {
+        font-size: 2rem;
+    }
+    .cultivando img {
+        width: 15rem;
+        margin-top: 3rem;
+    }
     footer {
         bottom: 0rem;
     }

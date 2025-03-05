@@ -5,7 +5,7 @@ body {
 
 .boas-vindas {
     font-size: 1.8rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -30,13 +30,13 @@ body {
 .btn-entrar {
     background-color: var(--btn-terracota);
     width: 8rem;
-    padding: 0.5rem;
+    padding: 0.01rem;
 }
 
 .btn-cadastre-se {
     background-color: var(--btn-yellow);
     width: 12rem;
-    padding: 0.5rem;
+    padding: 0.01rem;
 }
 
 footer {
@@ -83,7 +83,8 @@ html, body {
 }
     
 .senha {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin-top: -0.1rem;
 }
 .boas-vindas {
     font-size: 1.4rem;
@@ -91,6 +92,10 @@ html, body {
     margin-bottom: 1rem;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
 .btn-entrar, .btn-cadastre-se {
     font-size: 1.6rem;
     margin-bottom: -1rem;
